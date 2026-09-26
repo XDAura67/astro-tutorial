@@ -1,19 +1,19 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const pageTitle = "About Me";
+const pageTitle = "Sobre mí";
 
 const identity = {
-	firstName: "Sarah",
-	country: "Canada",
-	occupation: "Technical Writer",
-	hobbies: ["photography", "birdwatching", "baseball"],
+	firstName: "Moises",
+	country: "México",
+	occupation: "estudiante del CETI",
+	hobbies: [],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const skills = ["HTML", "CSS", "JavaScript", "React", "Python", "Git", "Astro"];
 
 const happy = true;
-const finished = false;
+const finished = true;
 const goal = 3;
 
 const skillColor = "crimson";
@@ -34,24 +34,24 @@ const textCase = "uppercase";
 		}
 	</style>
 
-	<h2>... and my new Astro site!</h2>
-	<p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
-	<p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+	<h2>... ¡y mi nuevo sitio hecho con Astro!</h2>
+	<p>Estoy siguiendo el tutorial introductorio de Astro. Esta es la segunda página de mi sitio y la primera que construí yo mismo.</p>
+	<p>Este sitio se irá actualizando conforme aprenda más, ¡así que vuelve pronto para ver cómo voy!</p>
 
-	<p>Here are a few facts about me:</p>
+	<p>Algunos datos sobre mí:</p>
 	<ul>
-		<li>My name is {identity.firstName}.</li>
-		<li>I live in {identity.country} and I work as a {identity.occupation}.</li>
+		<li>Me llamo {identity.firstName}.</li>
+		<li>Vivo en {identity.country} y soy {identity.occupation}.</li>
 		{identity.hobbies.length >= 2 &&
-			<li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+			<li>Dos de mis pasatiempos son: {identity.hobbies[0]} y {identity.hobbies[1]}</li>
 		}
 	</ul>
-	<p>My skills are:</p>
+	<p>Mis habilidades son:</p>
 	<ul>
 		{skills.map((skill) => <li class="skill">{skill}</li>)}
 	</ul>
 
-	{happy && <p>I am happy to be learning Astro!</p>}
-	{finished && <p>I finished this tutorial!</p>}
-	{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
+	{happy && <p>¡Me gusta mucho aprender Astro!</p>}
+	{finished && <p>¡Terminé el tutorial!</p>}
+	{goal === 3 ? <p>Mi meta era terminarlo en 3 días.</p> : <p>Mi meta no era de 3 días.</p>}
 </BaseLayout>

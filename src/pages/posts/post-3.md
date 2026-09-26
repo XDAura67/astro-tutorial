@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Third Blog Post
-author: Astro Learner
-description: "I had some challenges, but asking in the community really helped!"
+title: Mi tercera entrada del blog
+author: Moises
+description: "Tuve algunos problemas, ¡pero pedir ayuda me sirvió mucho!"
 image:
   url: "https://docs.astro.build/assets/rays.webp"
-  alt: "The Astro logo on a dark background with rainbow rays."
-pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
+  alt: "El logo de Astro sobre un fondo oscuro con rayos de colores."
+pubDate: 2026-09-25
+tags: ["astro", "aprendiendo en público", "tropiezos", "comunidad"]
 ---
-It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
+No todo salió a la primera, pero estoy disfrutando construir con Astro. ¡Y la [comunidad de Discord](https://astro.build/chat) es muy amable y ayuda mucho!

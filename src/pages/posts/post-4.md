@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Fourth Blog Post
-author: Astro Learner
-description: "This post will show up on its own!"
+title: Mi cuarta entrada del blog
+author: Moises
+description: "¡Esta entrada aparece sola en la lista!"
 image:
   url: "https://docs.astro.build/default-og-image.png"
-  alt: "The word astro against an illustration of planets and stars."
-pubDate: 2022-08-08
-tags: ["astro", "successes"]
+  alt: "La palabra astro sobre una ilustración de planetas y estrellas."
+pubDate: 2026-09-25
+tags: ["astro", "logros"]
 ---
-This post should show up with my other blog posts, because `import.meta.glob()` is returning a list of all my posts in order to create my list.
+Esta entrada aparece junto con las demás porque `import.meta.glob()` devuelve la lista de todas mis publicaciones para armar el listado.
